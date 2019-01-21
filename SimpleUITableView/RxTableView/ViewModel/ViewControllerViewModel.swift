@@ -12,10 +12,8 @@ import RxSwift
 class ViewControllerViewModel: NSObject {
     
     var tableRowsItem = PublishSubject<[ViewControllerModel]>()
-    var loading = PublishSubject<Bool>()
     
     func setDataSoruce() {
-        loading.onNext(true)
         
         var items = [ViewControllerModel]()
         
@@ -28,6 +26,6 @@ class ViewControllerViewModel: NSObject {
         items.append( ViewControllerModel(title:"title number 7", subtitle:"show subtitle number 7") )
         
         tableRowsItem.onNext(items)
-        loading.onNext(false)
+        
     }
 }

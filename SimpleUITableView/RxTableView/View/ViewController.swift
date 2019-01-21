@@ -44,10 +44,6 @@ class ViewController: UIViewController {
         }.disposed(by: disposeBag)
         
         
-        tableView.rx.modelSelected(TableViewCell.self).subscribe(onNext: { selectedModel in
-            
-        }).disposed(by: disposeBag)
-        
     }
 }
 
