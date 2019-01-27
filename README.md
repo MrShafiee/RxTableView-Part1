@@ -6,7 +6,7 @@ Implement simple tableView in RxSwift - part 1
 
 You can read my article about this sample project to implement simple UITableView in rxSwift at below link:
 
-[How to impelement UITableView in RxSwift - part 1](https://virgool.io/@shafi.ee/uitableview-in-rxswift-part-1-tfj4dz03f)
+[How to impelement UITableView in RxSwift - part 1](https://virgool.io/@shafi.ee/uitableview-in-rxswift-part-1-tfj4dz03f1xp)
 
 Follow [my blog](https://virgool.io/@shafi.ee/) to read next articles about RxSwift 🌹🙏🏻 
 
